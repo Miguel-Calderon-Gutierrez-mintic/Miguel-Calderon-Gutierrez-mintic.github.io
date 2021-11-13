@@ -1,0 +1,67 @@
+h1 {
+    Color: #03a8f4;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: 46px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #03a8f4;
+    font-family: "Space Mono", monospace;
+    font-size: 30px;
+}
+
+ARTICLE {
+    border: 1px solid #ccc;
+    padding: 0 1rem;
+    margin: 1rem;
+    margin: 20px 50px;
+}
+
+button {
+    background-color: #29b62d;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px 5px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    border: 0;
+    background-color: rgb(230, 241, 251)
+}
+
+td {
+    margin: 10px 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    border: 1px solid rgba(204, 204, 204, 0.726);
+}
+
+th {
+    margin: 10px 10px;
+    color: #29b62d;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: 20px;
+    border: 1px solid rgba(204, 204, 204, 0.726);
+}
+
+table {
+    margin: 10px 10px;
+    border: 1px solid rgba(204, 204, 204, 0.726);
+    border-radius: 10px;
+    background-color: rgb(230, 241, 251)
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reto 2 Miguel</title>
+    <link rel="stylesheet" href="./estilos/estilos.css" />
+    <script type="text/javascript" src="./Logica/logica.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>MIGUEL CALDERON RETO 2</h1>
+    </header>
+    <main>
+      <article>
+        <h2>Alquiler de cubiculo</h2>
+        <form>
+          <input type="number" id="mi_ID" placeholder="Ingrese el id" />
+          <input
+            type="text"
+            id="mi_TARGET"
+            placeholder="Ingrese el target"
+            autocomplete="name"
+          />
+          <input
+            type="number"
+            id="mi_CAPACITY"
+            placeholder="Ingrese la capaidad"
+          />
+          <input
+            type="number"
+            id="mi_CATEGORY_ID"
+            placeholder="Ingrese la categoria  "
+          />
+          <input
+            type="text"
+            id="mi_NAME"
+            placeholder="Ingrese el nombre"
+            autocomplete="name"
+          />
+        </form>
+
+        <div class="botones">
+          <button onclick="consultarPorId()">consultar por ID</button>
+          <button onclick="Agregar()">Agregar</button>
+          <button onclick="consultar()">Mostrar</button>
+          <button onclick="Borrar()">Borrar</button>
+          <button onclick="Actualizar()">Actualizar</button>
+        </div>
+
+        <div class="divTablaCubiculo" align="center">
+          <table id="Tabla_Cubiculos"></table>
+        </div>
+      </article>
+
+      <article>
+        <h2>Clientes</h2>
+
+        <form>
+          <input type="number" id="ID_client" placeholder="Ingrese el id" />
+          <input
+            type="text"
+            id="Name_client"
+            placeholder="Ingrese el nombre"
+            autocomplete="name"
+          />
+          <input
+            type="text"
+            id="Email_client"
+            placeholder="Ingrese el email"
+            autocomplete="name"
+          />
+          <input type="number" id="age_client" placeholder=" Ingrese la edad" />
+        </form>
+
+        <div class="botones">
+          <button onclick="Agregar2()">Agregar</button>
+          <button onclick="consultar2()">Mostrar</button>
+          <button onclick="Borrar2()">Borrar</button>
+          <button onclick="Actualizar2() ">Actualizar</button>
+        </div>
+
+        <div class="divTablaClientes">
+          <table id="Tabla_Clientes"></table>
+        </div>
+      </article>
+
+      <article>
+        <h2>Mensaje</h2>
+
+        <form>
+          <input type="number " id="mensaje_ID " placeholder="Ingrese el id " />
+          <input
+            type="text "
+            id="mensaje_text "
+            placeholder="Ingrese el mensaje "
+            autocomplete="name "
+          />
+        </form>
+
+        <div class="botones">
+          <button onclick="Agregar3()">Agregar</button>
+          <button onclick="Mostrar3()">Mostrar</button>
+          <button onclick="Borrar3()">Borrar</button>
+          <button onclick="Actualizar3()">Actualizar</button>
+        </div>
+
+        <div class="divTablaMensaje">
+          <table id="Tabla_Mensajes"></table>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
